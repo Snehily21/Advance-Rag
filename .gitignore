@@ -1,0 +1,76 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Docker
+# ----------------------
+*.pid
+docker-compose.override.yml
+
+# ----------------------
+# Vector DB / Index Files
+# ----------------------
+faiss_index/
+qdrant_storage/
+*.faiss
+*.pkl
+
+# ----------------------
+# Test / Cache
+# ----------------------
+.cache/
+.pytest_cache/
+
+# ----------------------
+# Coverage
+# ----------------------
+htmlcov/
+.coverage
+coverage.xml
